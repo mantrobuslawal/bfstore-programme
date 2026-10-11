@@ -407,5 +407,5 @@ The initial Launch programme contains five starting projects:
 
 See [Projects](../projects/) for the programme's project view.
 
-The next profile-level publication will introduce the Launch problem contexts that connect this business scenario to those projects.
+See the [Launch problem contexts](../launch-problem-contexts/) for the problem spaces that connect this business scenario to the programme's projects.
 
