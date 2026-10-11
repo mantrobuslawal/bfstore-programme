@@ -3,8 +3,6 @@ title: Launch problem contexts
 description: The business problem spaces derived from the Borough Furnishings Launch profile and the projects created to address them.
 ---
 
-# Launch problem contexts
-
 > **Status:** Agreed initial problem-context baseline v0.1.0  
 > **Business profile:** BF-PROFILE-001 — Launch  
 >
