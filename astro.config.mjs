@@ -4,6 +4,8 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
+	site: 'https://mantrobuslawal.github.io',
+	base: '/bfstore-programme',
 	integrations: [
 		starlight({
 			title: 'Borough Furnishings - Engineering Programme',
