@@ -6,21 +6,15 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
 	integrations: [
 		starlight({
-			title: 'My Docs',
-			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }],
+			title: 'Borough Furnishings - Engineering Programme',
+			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/mantrobuslawal/bfstore-programme' }],
 			sidebar: [
-				{
-					label: 'Guides',
-					items: [
-						// Each item here is one entry in the navigation menu.
-						{ label: 'Example Guide', slug: 'guides/example' },
-					],
-				},
-				{
-					label: 'Reference',
-					items: [{ autogenerate: { directory: 'reference' } }],
-				},
-			],
+{label: 'Overview', items: [{ autogenerate: { directory: 'overview'} }]}, 
+{label: 'Profiles', items: [{ autogenerate: { directory: 'profiles' }}]},
+{label: 'Projects', items: [{ autogenerate: { directory: 'projects' }}]},
+{label: 'Evidence', items: [{ autogenerate: { directory: 'evidence' }}]},
+{label: 'Engineering guide', items: [{ autogenerate: { directory: 'engineering-guide'} }]},
+],
 		}),
 	],
 });
