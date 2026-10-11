@@ -1,9 +1,7 @@
 ---
-title: Launch
+title: Launch — From creative side hustle to online retailer
 description: The starting Borough Furnishings business profile, covering the transition from successful social-media sales to a dedicated online retail operation.
 ---
-
-# Launch — From creative side hustle to online retailer
 
 > **Profile status:** Draft v0.2.0  
 > **Profile ID:** BF-PROFILE-001  
