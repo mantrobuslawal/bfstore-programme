@@ -2,7 +2,7 @@
 
 title: Cloud and identity foundations
 description: The Launch project establishing manageable cloud and shared identity foundations for Borough Furnishings.
-----------------------------------------------------------------------------------------------------------------------
+---
 
 > **Project definition:** Agreed initial baseline v0.1.0
 > **Business profile:** Launch
