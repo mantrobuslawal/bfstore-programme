@@ -1,6 +1,6 @@
 ---
 title: Programme Overview
-description: An introduction to the Borough Furnishings engineering programme, its purpose, struture, evolution and evidence model.
+description: An introduction to the Borough Furnishings engineering programme, its purpose, structure, evolution and evidence model.
 ---
 
 # Borough Furnishings engineering programme
