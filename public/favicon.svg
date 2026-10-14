@@ -1,1 +1,46 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128"><path fill-rule="evenodd" d="M81 36 64 0 47 36l-1 2-9-10a6 6 0 0 0-9 9l10 10h-2L0 64l36 17h2L28 91a6 6 0 1 0 9 9l9-10 1 2 17 36 17-36v-2l9 10a6 6 0 1 0 9-9l-9-9 2-1 36-17-36-17-2-1 9-9a6 6 0 1 0-9-9l-9 10v-2Zm-17 2-2 5c-4 8-11 15-19 19l-5 2 5 2c8 4 15 11 19 19l2 5 2-5c4-8 11-15 19-19l5-2-5-2c-8-4-15-11-19-19l-2-5Z" clip-rule="evenodd"/><path d="M118 19a6 6 0 0 0-9-9l-3 3a6 6 0 1 0 9 9l3-3Zm-96 4c-2 2-6 2-9 0l-3-3a6 6 0 1 1 9-9l3 3c3 2 3 6 0 9Zm0 82c-2-2-6-2-9 0l-3 3a6 6 0 1 0 9 9l3-3c3-2 3-6 0-9Zm96 4a6 6 0 0 1-9 9l-3-3a6 6 0 1 1 9-9l3 3Z"/><style>path{fill:#000}@media (prefers-color-scheme:dark){path{fill:#fff}}</style></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Borough Furnishings">
+  <rect width="128" height="128" rx="24" fill="#0B2347"></rect>
+
+  <g fill="#FFFFFF">
+    <!-- B -->
+    <path d="
+      M28 27
+      H55
+      C70 27 79 35 79 47
+      C79 55 75 61 68 64
+      C77 67 82 74 82 83
+      C82 96 72 101 56 101
+      H28
+      Z
+
+      M44 41
+      V57
+      H54
+      C61 57 64 54 64 49
+      C64 44 61 41 54 41
+      Z
+
+      M44 70
+      V87
+      H56
+      C63 87 67 84 67 78
+      C67 73 63 70 56 70
+      Z
+    "></path>
+
+    <!-- F -->
+    <path d="
+      M72 27
+      H103
+      V42
+      H88
+      V57
+      H100
+      V72
+      H88
+      V101
+      H72
+      Z
+    "></path>
+  </g>
+</svg>

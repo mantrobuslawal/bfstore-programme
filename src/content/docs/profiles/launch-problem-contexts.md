@@ -3,7 +3,7 @@ title: Launch problem contexts
 description: The business problem spaces derived from the Borough Furnishings Launch profile and the projects created to address them.
 ---
 
-> **Status:** Agreed initial problem-context baseline v0.1.0  
+> **Status:** Agreed revised problem-context baseline v0.2.0  
 > **Business profile:** BF-PROFILE-001 — Launch  
 >
 > These problem contexts are derived from the Launch business profile. The profile still contains deliberately unresolved details, but its agreed context is sufficient to identify the business problems and opportunities that require engineering work.
@@ -42,24 +42,26 @@ Open questions in the Launch profile remain uncertainties to resolve when they b
 
 Borough Furnishings has successfully sold a selected range of original computing-themed products through social-media direct messages.
 
+Smaller, easier-to-ship products such as themed mugs, desk lamps, coasters, and similar items have also sold successfully through Amazon.
+
 The business already holds finished-product stock and manages picking, packing, and dispatch from rented premises.
 
-The opportunity is to build on demonstrated demand by expanding the range and establishing a dedicated online shop where customers can purchase independently.
+The opportunity is to build on demonstrated demand by expanding the range, establishing a dedicated online shop, retaining commercially useful Amazon sales, and increasing product discovery through Google Shopping.
 
 | Element | Launch context |
 | --- | --- |
-| **Current situation** | A technically experienced founder has successfully sold products through direct-message ordering. Borough Furnishings stocks finished products and manages fulfilment itself. |
-| **Opportunity** | Expand the range and establish a dedicated online shop. |
-| **Problem to address** | Individually arranged sales do not provide the self-service purchasing and coordinated operational support required for the next stage of the business. |
-| **People affected** | Customers, the founder, and the small team responsible for retail operations, fulfilment, support, and technology. |
-| **Desired outcome** | Customers purchase conveniently, staff fulfil and support orders reliably, the founder understands business performance, and technology remains manageable within the organisation's resources. |
-| **Important context** | Stocked products, in-house fulfilment, external carriers, UK-wide delivery including Northern Ireland, and a one-month overlap between DM and website ordering. |
+| **Current situation** | A technically experienced founder has successfully sold products through direct-message ordering and has also achieved successful Amazon sales for selected smaller products. Borough Furnishings stocks finished products and manages fulfilment itself. |
+| **Opportunity** | Expand the range, establish a dedicated online shop, retain commercially valuable Amazon sales, and make eligible products discoverable through Google Shopping. |
+| **Problem to address** | The next stage of the business requires self-service purchasing and coordinated support for product information, stock, orders, fulfilment, customer service, and relevant external channels without relying on individually arranged conversations or disconnected information. |
+| **People affected** | Customers, the founder, and the small team responsible for retail operations, fulfilment, support, finance, and technology. |
+| **Desired outcome** | Customers purchase conveniently, relevant product information remains dependable across channels, staff fulfil and support orders reliably, the founder understands business performance, and technology remains manageable within the organisation's resources. |
+| **Important context** | Stocked products, in-house fulfilment, external carriers, UK-wide delivery including Northern Ireland, ongoing Amazon sales for selected products, Google Shopping product discovery, and a one-month overlap between DM and website ordering. |
 
-The existing direct-message process has served the side hustle successfully.
+The existing direct-message and Amazon sales activity has demonstrated demand successfully.
 
 The programme does **not** invent a failing current process merely to justify a new system.
 
-The problem is that Borough Furnishings now wants capabilities appropriate to a different stage of business operation.
+The problem is that Borough Furnishings now wants capabilities appropriate to a different stage of business operation, including an owned retail channel and better coordination across the channels it chooses to retain.
 
 ## The three Launch problem spaces
 
@@ -77,94 +79,109 @@ Launch
 
 They are separated by **purpose**, not by anticipated software architecture.
 
-**Digital retail and order fulfilment** concerns how customers buy and how the team manages the resulting retail activity.
+**Digital retail and order fulfilment** concerns how customers discover and buy products and how the team manages the resulting retail activity across relevant channels.
 
 **Technology delivery and operation** concerns how the small team builds, releases, secures, runs, understands, and recovers the technology supporting the business.
 
-**Business information and insight** concerns how operational information becomes dependable commercial understanding.
+**Business information and insight** concerns how operational and channel information becomes dependable commercial understanding.
 
 ## Digital retail and order fulfilment
 
 ### Current situation
 
-Borough Furnishings has demonstrated demand through successful direct-message sales.
+Borough Furnishings has demonstrated demand through successful direct-message and Amazon sales.
 
-It holds finished-product stock and manages packing and dispatch from rented premises. The founder now wants to expand the range and introduce a dedicated online shop.
+It holds finished-product stock and manages packing and dispatch from rented premises.
 
-The existing process has supported the side hustle, but it does not provide the self-service purchasing and coordinated order-handling experience intended for Launch.
+The founder now wants to expand the range, introduce a dedicated online shop, retain selected Amazon sales, and make eligible products discoverable through Google Shopping.
+
+The existing sales approaches have supported the side hustle successfully, but the next stage requires a more coordinated retail operation.
 
 ### People affected
 
 | Stakeholder | Need |
 | --- | --- |
-| **Customers** | Understand products, purchase independently, receive goods, and obtain help when required. |
-| **Founder / retail team** | Present and sell the range, manage availability, and oversee customer commitments. |
+| **Customers** | Understand products, purchase independently through appropriate channels, receive goods, and obtain help when required. |
+| **Founder / retail team** | Present and sell the range, maintain suitable product information, manage availability, and oversee customer commitments across relevant channels. |
 | **Fulfilment staff** | Understand which orders require action and carry them through preparation and dispatch. |
-| **Customer-support staff** | Find enough information to explain progress and resolve order issues. |
+| **Customer-support staff** | Find enough information to explain progress and resolve order or channel-related issues. |
+| **Finance / bookkeeping** | Understand relevant transactions, refunds, marketplace fees, and reconciliation needs. |
 
 These describe roles rather than separate hires.
 
 ### Problem statement
 
-Borough Furnishings needs to develop its successful individually arranged sales activity into a coordinated online retail operation.
+Borough Furnishings needs to develop its successful founder-managed and externally mediated sales activity into a coordinated online retail operation.
 
-Customers need to discover and purchase available products independently.
+Customers need to discover and purchase available products independently through the Borough Furnishings shop.
 
-At the same time, the small team needs to maintain control over:
+At the same time, the business intends to retain Amazon as a sales channel for selected products and use Google Shopping to improve discovery of eligible products.
 
+The small team therefore needs to maintain control over:
+
+- product information;
 - stock;
 - customer orders;
+- relevant external sales and discovery channels;
 - fulfilment;
 - customer communication;
+- returns and refunds;
 - and after-sales support.
 
-During the first month of website operation, direct-message and website sales will coexist.
+During the first month of website operation, direct-message and website sales will coexist while Amazon remains an ongoing channel.
 
-The business must honour commitments made through both channels while encouraging customers to adopt the website.
+The business must honour commitments made through relevant sales channels while encouraging customers to adopt the owned shop and avoiding unnecessary duplication of product information.
 
 ### Consequences if the need remains unmet
 
 Potential consequences include:
 
-- purchases continuing to depend heavily on individual conversations and staff availability;
+- purchases continuing to depend too heavily on individual conversations and staff availability;
 - increasing sales activity creating greater coordination effort without corresponding visibility;
-- website and DM sales making conflicting commitments against the same stock;
+- website, Amazon, and temporary DM sales making conflicting commitments against the same stock;
+- product, price, or availability information becoming inconsistent or stale across relevant channels;
+- staff needing to maintain the same product information manually in multiple places;
 - and staff finding it increasingly difficult to provide consistent information or resolve customer issues.
 
 These are risks arising from the intended change in business scale and operating model.
 
-They are **not claims that Borough Furnishings currently loses orders or provides poor service**.
+They are **not claims that Borough Furnishings currently loses orders, mismanages stock, or provides poor service**.
 
 ### Desired outcome
 
-Customers can purchase conveniently and receive dependable service.
+Customers can discover and purchase products conveniently and receive dependable service.
 
 The team can:
 
+- maintain trustworthy product information;
 - account for accepted orders;
-- manage stock commitments;
+- manage stock commitments across relevant sales channels;
 - prepare and dispatch goods;
+- publish appropriate product information for external discovery;
 - communicate relevant progress;
+- reconcile relevant marketplace activity;
 - and resolve customer issues.
 
-The transition to website ordering should preserve existing customer commitments rather than disrupting them.
+The transition to website ordering should preserve existing customer commitments while allowing commercially useful external channels to continue.
 
 ### Boundaries
 
 | Within this problem space | Outside this problem space |
 | --- | --- |
 | Product presentation and purchasing | Designing or manufacturing products |
-| Payments | Physically transporting goods |
-| Stock availability and commitments | Social-media integration |
-| Order handling | Replacing the existing process for completing outstanding DM orders |
-| Fulfilment coordination | Broader commercial analysis |
-| Customer communications | Technology platform design |
+| Product information needed by relevant external channels | Physically transporting goods |
+| Payments | Social-media integration |
+| Stock availability and commitments across relevant sales channels | Replacing the existing process for completing outstanding DM orders |
+| Website and selected Amazon order handling | Broader commercial analysis |
+| Product publication for Google Shopping discovery | Technology platform design |
+| Fulfilment coordination | Selecting integration technologies or communication patterns |
+| Customer communications | Building Amazon or Google services |
 | After-sales support | |
 | Temporary DM overlap and website-adoption offers | |
 
 Technology delivery and operation supports this problem space.
 
-Security, identity, privacy, and data protection also apply across it, but their solutions are not designed at the problem-context stage.
+Security, identity, privacy, data protection, external-service trust, and applicable channel obligations also apply across it, but their solutions are not designed at the problem-context stage.
 
 ## Technology delivery and operation
 
@@ -174,7 +191,9 @@ The technically experienced founder has chosen to build the retail applications 
 
 That choice creates a second class of business need.
 
-Borough Furnishings must be able not only to build retail functionality, but also to develop, release, operate, secure, support, and maintain the resulting technology.
+Borough Furnishings must be able not only to build retail functionality, but also to develop, integrate, release, operate, secure, support, and maintain the resulting technology.
+
+External channels introduce additional dependencies whose availability, interfaces, credentials, failures, and changes may affect Borough Furnishings even though those services are outside its direct control.
 
 This work must coexist with the other responsibilities of a small team.
 
@@ -185,13 +204,13 @@ The problem context does not assume that every technical capability must be crea
 | Stakeholder | Need |
 | --- | --- |
 | **Founder / business owner** | Technology that supports trading at an affordable cost without creating disproportionate operational demands. |
-| **Application developers** | Repeatable ways to make, verify, and release changes. |
-| **Service operators and support staff** | Visibility of service health, controlled access, clear responsibilities, and ways to investigate and recover from failures. |
+| **Application developers** | Repeatable ways to make, integrate, verify, and release changes. |
+| **Service operators and support staff** | Visibility of service health, controlled access, clear responsibilities, and ways to investigate failures involving both internal and external dependencies. |
 | **Retail staff and customers** | Dependable services during normal operation, changes, and failures. |
 
 ### Problem statement
 
-Borough Furnishings needs to establish the engineering and operational capabilities necessary to deliver and sustain its self-built retail applications.
+Borough Furnishings needs to establish the engineering and operational capabilities necessary to deliver and sustain its self-built retail applications and relevant external-channel integrations.
 
 A small team must be able to:
 
@@ -201,9 +220,11 @@ A small team must be able to:
 - operate services;
 - protect information;
 - control access;
-- understand service health;
+- manage external-service credentials and trust appropriately;
+- understand service and integration health;
 - respond to failures;
 - recover services and data;
+- understand the effect of external dependency failures;
 - and understand the cost and ownership of the technology.
 
 Technology ownership must not consume an unmanageable share of the business's resources.
@@ -216,7 +237,8 @@ Potential consequences include:
 
 - releases relying on fragile or inconsistent manual work;
 - failures going unnoticed or taking longer to diagnose;
-- access, configuration, and operational knowledge becoming excessively dependent on the founder;
+- external-channel failures or data synchronisation problems being difficult to identify;
+- access, configuration, credentials, and operational knowledge becoming excessively dependent on the founder;
 - the team being unable to restore services or data when required;
 - and expenditure or maintenance effort becoming difficult to understand and control.
 
@@ -227,9 +249,10 @@ These are risks to design against rather than established incidents.
 The team can:
 
 - deliver changes repeatably;
-- understand service health;
+- understand service and integration health;
 - control access;
 - investigate problems;
+- respond appropriately to external-service failures;
 - recover operation when necessary;
 - understand operational ownership;
 - and make informed decisions about technology expenditure.
@@ -244,13 +267,14 @@ The supporting capabilities should remain proportionate to the size and needs of
 | Connectivity and hosting foundations | Prescribing detailed platform architecture |
 | Development and testing capabilities | Defining retail rules such as promotion calculations |
 | Release and deployment capabilities | Assuming each concern needs its own tool, team, or service |
-| Shared identity and access foundations | Broader product profitability analysis |
+| Shared identity and access foundations | Broader product or channel profitability analysis |
 | Security practices | Implementing future multi-cloud or hybrid-cloud scenarios |
+| External-service credential and dependency management | |
 | Observability and supportability | |
 | Backup, recovery, and continuity | |
 | Technology cost visibility and operational ownership | |
 
-Application-specific controls require coordination with the retail problem space.
+Application-specific controls and external-channel behaviours require coordination with the retail problem space.
 
 The boundary exists to clarify responsibility, not to force closely related concerns into isolated systems.
 
@@ -258,30 +282,35 @@ The boundary exists to clarify responsibility, not to force closely related conc
 
 ### Current situation
 
-Borough Furnishings has already made sales through direct messages and is now establishing a dedicated online shop.
+Borough Furnishings has already made sales through direct messages and Amazon and is now establishing a dedicated online shop.
 
-The new operation will generate information about:
+The new operation will generate or depend on information about:
 
 - products;
+- sales channels;
 - orders;
 - payments;
+- marketplace fees;
 - stock;
 - fulfilment;
 - promotions;
 - returns;
+- customer-service activity;
 - and costs.
 
 The founder needs to turn relevant information into commercial understanding.
 
-The programme does not assume that current reporting is defective. The need arises because the business is moving into a more structured operating model.
+The programme does not assume that current reporting is defective.
+
+The need arises because the business is moving into a more structured and multi-channel operating model.
 
 ### People affected
 
 | Stakeholder | Need |
 | --- | --- |
-| **Founder / business owner** | Understand sales, product performance, relevant costs, and financial viability. |
-| **Retail operations** | Recognise demand, stock, and fulfilment patterns that inform operational decisions. |
-| **Finance / bookkeeping** | Obtain sufficiently consistent transaction and cost information for reconciliation and financial reporting. |
+| **Founder / business owner** | Understand sales, product and channel performance, relevant costs, and financial viability. |
+| **Retail operations** | Recognise demand, stock, channel, and fulfilment patterns that inform operational decisions. |
+| **Finance / bookkeeping** | Obtain sufficiently consistent transaction, marketplace-fee, refund, and cost information for reconciliation and financial reporting. |
 
 Launch does not assume a dedicated analyst, data engineer, or data-science team.
 
@@ -289,14 +318,17 @@ These responsibilities may be performed by the same small group of people.
 
 ### Problem statement
 
-Borough Furnishings needs a dependable way to turn information from its retail operation into useful commercial understanding.
+Borough Furnishings needs a dependable way to turn information from its retail operation and relevant external channels into useful commercial understanding.
 
 The founder and team need to determine:
 
 - what is selling;
+- where sales are occurring;
+- how products and channels are performing;
 - how the operation is performing;
-- what relevant activities cost;
+- what relevant activities and channels cost;
 - whether promotions or changes achieve their intended outcomes;
+- whether marketplace activity reconciles appropriately;
 - and whether the business remains financially sustainable.
 
 The information supplied should answer concrete business questions without creating a disproportionate reporting or data-management burden.
@@ -306,7 +338,8 @@ The information supplied should answer concrete business questions without creat
 Potential consequences include:
 
 - product and replenishment decisions depending on incomplete impressions;
-- revenue growth obscuring delivery, promotion, returns, or operating costs;
+- channel performance being difficult to compare;
+- revenue growth obscuring marketplace fees, delivery, promotion, returns, or operating costs;
 - inconsistent figures increasing reconciliation effort;
 - reduced confidence in business decisions;
 - and difficulty determining whether changes produced their intended outcomes.
@@ -317,7 +350,7 @@ Again, these represent risks rather than claims of existing reporting failure.
 
 The founder and team have access to understandable and sufficiently trustworthy information for agreed business decisions.
 
-They understand what important figures mean and can investigate material discrepancies.
+They understand what important figures mean, can distinguish relevant channel activity, and can investigate material discrepancies.
 
 Reporting develops in response to business questions rather than accumulating metrics without a clear purpose.
 
@@ -325,10 +358,10 @@ Reporting develops in response to business questions rather than accumulating me
 
 | Within this problem space | Outside this problem space |
 | --- | --- |
-| Initial sales and product information | Defining detailed reports at this stage |
+| Initial sales, channel, and product information | Defining detailed reports at this stage |
 | Stock and fulfilment information used for commercial understanding | Prescribing metrics before business questions exist |
-| Relevant financial and cost information | Designing detailed data models |
-| Information consistency and interpretation | Mandating a data warehouse |
+| Relevant financial, marketplace-fee, and cost information | Designing detailed data models |
+| Information consistency, reconciliation, and interpretation | Mandating a data warehouse |
 | Appropriate access to commercial information | Mandating Data Mesh |
 | Assessing outcomes of promotions and later changes | Selecting a BI product |
 | Information needed for reconciliation and financial reporting | Building predictive models or recommendation systems during Launch |
@@ -343,7 +376,7 @@ It does **not** predetermine the data architecture used to provide it.
 The three spaces interact continuously.
 
 ```text
-Digital retail activity
+Digital retail and channel activity
         │
         │ produces business records
         ▼
@@ -360,11 +393,11 @@ Technology delivery and operation
 
 The distinction between them is primarily one of purpose.
 
-**Retail information** helps somebody act on an individual business process, such as determining whether an order is ready for dispatch.
+**Retail information** helps somebody act on an individual business process, such as determining whether an Amazon or website order is ready for dispatch.
 
-**Business information** helps somebody understand patterns across business activity, such as whether a product range or promotion is performing as intended.
+**Business information** helps somebody understand patterns across business activity, such as whether a product range, sales channel, or promotion is performing as intended.
 
-**Technical observability** helps somebody understand the services and infrastructure running those business capabilities.
+**Technical observability** helps somebody understand the services, integrations, and infrastructure running those business capabilities.
 
 The same underlying data may sometimes contribute to more than one purpose, but the questions being answered are different.
 
@@ -377,6 +410,7 @@ These include:
 - identity and access;
 - security;
 - privacy and data protection;
+- external-service trust and dependency management;
 - operational continuity;
 - reliability;
 - financial accountability;
@@ -410,7 +444,7 @@ The three problem spaces produced five starting projects.
 
 | Problem space | Resulting project | Intended outcome |
 | --- | --- | --- |
-| **Digital retail and order fulfilment** | **Retail applications** | Customers purchase independently while staff manage stock, orders, fulfilment, and customer issues. |
+| **Digital retail and order fulfilment** | **Retail applications** | Customers can purchase through the owned shop while Borough Furnishings coordinates relevant product, stock, order, fulfilment, customer, and external-channel activity. |
 | **Technology delivery and operation** | **Cloud and identity foundations** | Controlled, manageable environments and shared identity and access foundations. |
 | **Technology delivery and operation** | **Development and delivery enablement** | Repeatable development, verification, and release of software and infrastructure changes. |
 | **Technology delivery and operation** | **Service operation and resilience** | Understand service health, respond to problems, and restore services and data with evidence. |
@@ -453,4 +487,3 @@ Detailed behaviours, architecture, technology choices, fit criteria, metrics, an
 See the [Launch profile](../launch/) for the business context from which these problem spaces were derived.
 
 See [Projects](../../projects/) for the programme's project view.
-
