@@ -43,7 +43,7 @@ The initial Launch profile produces five starting projects across three problem 
 
 | Problem space | Project | Intended outcome |
 | --- | --- | --- |
-| **Digital retail and order fulfilment** | [Retail applications](./retail-applications/) | Customers purchase independently while staff manage stock, orders, fulfilment, and customer issues. |
+| **Digital retail and order fulfilment** | [Retail applications](./retail-applications/) | Customers can purchase through the owned shop while Borough Furnishings coordinates relevant product, stock, order, fulfilment, customer, and external-channel activity. |
 | **Technology delivery and operation** | [Cloud and identity foundations](./cloud-and-identity-foundations/) | Controlled, manageable environments and shared identity and access foundations. |
 | **Technology delivery and operation** | [Development and delivery enablement](./development-and-delivery-enablement/) | Repeatable development, verification, and release of software and infrastructure changes. |
 | **Technology delivery and operation** | [Service operation and resilience](./service-operation-and-resilience/) | Understand service health, respond to problems, and restore services and data with evidence. |
