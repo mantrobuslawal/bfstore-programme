@@ -3,8 +3,6 @@ title: Programme Overview
 description: An introduction to the Borough Furnishings engineering programme, its purpose, structure, evolution and evidence model.
 ---
 
-# Borough Furnishings engineering programme
-
 Borough Furnishings is a fictional retailer used to explore the end-to-end engineering of cloud-native systems as an organisation evolves.
 
 The programme is designed as a continuing engineering case study rather than a single application build. Business needs, constraints, scale, risk, and organisational capability change over time, and the technical systems evolve in response.
