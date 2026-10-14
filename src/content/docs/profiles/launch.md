@@ -405,7 +405,7 @@ The initial Launch programme contains five starting projects:
 4. **Service operation and resilience**
 5. **Business reporting and insight**
 
-See [Projects](../projects/) for the programme's project view.
+See [Projects](../../projects/) for the programme's project view.
 
 See the [Launch problem contexts](../launch-problem-contexts/) for the problem spaces that connect this business scenario to the programme's projects.
 
