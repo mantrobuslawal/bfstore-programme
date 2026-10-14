@@ -1,4 +1,4 @@
-# Borough Furnishings — Engineering Programme
+# Borough Furnishings - Engineering Programme
 
 **bfstore** is an independent engineering programme exploring the design, implementation, operation, and evolution of cloud-native retail systems.
 
@@ -24,7 +24,7 @@ Business scenarios are fictional. Implementation and validation claims will iden
 
 | Profile | Context | Stage |
 | --- | --- | --- |
-| **Launch** | A technically experienced founder expands successful social-media DM sales into an owned online shop, supported by a small team and in-house fulfilment. | Initial profile and project definitions established; details remain open. |
+| **Launch** | A technically experienced founder builds on successful direct-message and Amazon sales by establishing an owned online shop, retaining selected marketplace sales, and extending product discovery through Google Shopping. | Initial profile, problem contexts, and project definitions established; details remain open. |
 | **Growth** | The retailer develops a wider range and larger or more specialised operations. | Storyline agreed; detailed profile planned. |
 | **Expansion** | The business operates across more markets, locations, channels, and teams. | Storyline agreed; detailed profile planned. |
 | **Multi-cloud evolution** | The larger retailer explores a common internal platform across AWS, Azure, and Google Cloud. | Storyline agreed; detailed profile planned. |
@@ -35,7 +35,7 @@ Hybrid-cloud exploration is also an eventual programme direction. Its scenario a
 
 | Project | Purpose |
 | --- | --- |
-| **Retail applications** | Enable self-service purchasing and support stock, orders, fulfilment, and customer issues. |
+| **Retail applications** | Enable self-service purchasing while coordinating relevant product, stock, order, fulfilment, customer, and external-channel activity. |
 | **Cloud and identity foundations** | Establish manageable cloud environments and shared identity/access capabilities. |
 | **Development and delivery enablement** | Provide repeatable workflows for developing, verifying, and releasing changes. |
 | **Service operation and resilience** | Establish observability, support, backup, recovery, and continuity arrangements. |
@@ -71,12 +71,11 @@ The documentation site is built and published through GitHub Actions. This stack
 
 Repository boundaries and tooling can be reviewed when concrete needs emerge. Projects do not automatically correspond to separate repositories or deployable services.
 
-
 ## Change workflow
 
 Changes follow **draft → review → merge → publish**, using branches and pull requests. Related documentation and implementation changes should be reviewed together where appropriate.
 
-Review may be deliberate self-review supported by automation and discussion; independent approval will not be implied where it has not occurred. Publication is automated through GitHub Actions following changes merged to main.
+Review may be deliberate self-review supported by automation and discussion; independent approval will not be implied where it has not occurred. Publication is automated through GitHub Actions following changes merged to `main`.
 
 ## Programme ownership
 
