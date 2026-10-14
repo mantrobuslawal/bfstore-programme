@@ -6,13 +6,17 @@ It is centred on **Borough Furnishings**, a fictional retailer of computer-scien
 
 The programme demonstrates end-to-end engineering capability through an inspectable record connecting business context to problems, projects, decisions, implementation, and validation.
 
+**Live documentation:** [Borough Furnishings Engineering Programme](https://mantrobuslawal.github.io/bfstore-programme/)
+
 ## Current status
 
-**Programme foundations established; documentation site setup in progress.**
+**Launch programme baseline published; requirements preparation next.**
 
-The initial Launch profile, its problem contexts, and five starting projects have been documented. Repository organisation, the documentation workflow, and the initial site stack have been agreed.
+The initial Launch profile, its problem contexts, and five starting projects are published on the documentation site. Repository organisation, the documentation workflow, site structure, continuous integration, and automated publication are established.
 
-Those documents are being prepared for import into this repository. Detailed requirements analysis, application implementation, and operational validation remain ahead. No live documentation-site URL is available yet.
+The programme is now preparing for detailed requirements analysis. Architecture, implementation, operational validation, and supporting evidence will follow as the programme develops.
+
+The documentation site is live at [mantrobuslawal.github.io/bfstore-programme](https://mantrobuslawal.github.io/bfstore-programme/).
 
 Business scenarios are fictional. Implementation and validation claims will identify what was actually built or tested, including relevant conditions and limitations.
 
@@ -52,26 +56,27 @@ Work proceeds from **business profile → problem contexts → projects → requ
 
 ## Repository and documentation site
 
-This monorepo will contain programme documentation, site source, and executable work. Content has one authoritative home, with the public site providing accessible introductions and routes into technical detail.
+This monorepo contains the programme documentation and documentation-site source, and will contain executable programme work as implementation begins. Content has one authoritative home, with the public site providing accessible introductions and routes into technical detail.
 
-The planned site navigation is **Overview, Profiles, Projects, Evidence, and Engineering guide**.
+The site navigation is **Overview, Profiles, Projects, Evidence, and Engineering guide**.
 
-The agreed initial documentation stack is:
+The current documentation stack is:
 
 - **Astro + Starlight** for site generation and documentation presentation.
 - **Pagefind** for search.
-- **GitHub Actions** for checks and publication.
+- **GitHub Actions** for continuous integration and publication.
 - **GitHub Pages** for public hosting.
 
-Site configuration and build instructions will be added during setup. This stack describes the documentation hub, not the architecture or hosting of the retail applications.
+The documentation site is built and published through GitHub Actions. This stack describes the documentation hub, not the architecture or hosting of the retail applications.
 
 Repository boundaries and tooling can be reviewed when concrete needs emerge. Projects do not automatically correspond to separate repositories or deployable services.
+
 
 ## Change workflow
 
 Changes follow **draft → review → merge → publish**, using branches and pull requests. Related documentation and implementation changes should be reviewed together where appropriate.
 
-Review may be deliberate self-review supported by automation and discussion; independent approval will not be implied where it has not occurred. Publication automation is planned and is not yet configured.
+Review may be deliberate self-review supported by automation and discussion; independent approval will not be implied where it has not occurred. Publication is automated through GitHub Actions following changes merged to main.
 
 ## Programme ownership
 
