@@ -33,9 +33,6 @@ jobs:
       - name: Build site
         run: npm run build
  
-      - name: Build site
-        run: npm run build
-
       - name: Check internal links
         run: npm run check:links
  
