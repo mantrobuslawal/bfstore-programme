@@ -7,11 +7,18 @@
     "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
+    "preview:links": "astro preview --host 127.0.0.1 --port 4321",
+    "links:scan": "linkinator http://127.0.0.1:4321/bfstore-programme/ --recurse --check-fragments --skip https://",
+    "check:links": "start-server-and-test preview:links http://127.0.0.1:4321/bfstore-programme/ links:scan", 
     "astro": "astro"
   },
   "dependencies": {
     "@astrojs/starlight": "^0.42.6",
     "astro": "^7.2.10",
     "sharp": "^0.35.3"
+  },
+  "devDependencies": {
+    "linkinator": "^8.1.0",
+    "start-server-and-test": "^3.0.13"
   }
 }
